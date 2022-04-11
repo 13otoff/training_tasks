@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="site.css" rel="stylesheet" />
+</head>
+<body>
+    <form autocomplete="on" method="post">
+        <p>Регистрация</p>
+        <ul>
+            <li>
+                <label for="mail">E-mail</label>
+            </li>
+            <li>
+                <input type="email"
+                       id="mail"
+                       name="user_email"
+                       required="required"
+                       class="mail" />
+            </li>
+        </ul>
+        <ul class="pass">
+            <ul>
+                <li>
+                    <label for="password">Пароль</label>
+                </li>
+                <li>
+                    <input type="password"
+                           id="password"
+                           name="password"
+                           required="required" />
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <label for="password_confirm">Ещё раз</label>
+                </li>
+                <li>
+                    <input type="password"
+                           id="password_confirm"
+                           name="password_confirm"
+                           required="required" />
+                </li>
+            </ul>
+            <li>
+                <input type="submit" class="submit" />
+            </li>
+        </ul>
+    </form>
+</body>
+</html>
