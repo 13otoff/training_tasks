@@ -1,0 +1,14 @@
+﻿.menu {
+    list-style-type: none;
+    padding: 10px;
+    color: rgb(136, 0, 0);
+    background-color: rgb(249, 228, 151);
+    width: 200px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 4px 4px;
+}
+
+    .menu li {
+        padding: 4px 0;
+    }
